@@ -29,17 +29,20 @@ a:hover {
 }
 
 nav {
-    color:rgb(96, 116, 116);
+    color:#4f9ba7;
+    background-color: #ffffff;
+
+
 }
 
 nav svg {
-    fill:rgb(255, 255, 255);
+    fill:#4f9ba7;
     width:20px;
     height:20px;
 }
 
 nav svg:hover {
-    fill:rgb(255, 192, 56);
+    fill:#4f9ba7;
 }
 .navcontent {
     display: flex;
@@ -70,7 +73,7 @@ li {
 
 .leftnav h3  {
 
-    color:rgb(96, 116, 116);
+ color:#4f9ba7;
     font-weight: 400;
     font-size: 18px;
 }
