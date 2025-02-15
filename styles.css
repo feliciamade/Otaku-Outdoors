@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-image: url('images/howels.png');
+    background-image: url('images/land1.png');
     background-repeat: no-repeat;
     background-size:cover;
     background-color: rgb(10, 10, 13);
@@ -20,26 +20,26 @@ a {
 }
 
 .active {
-    color:rgb(255, 192, 56);
+    color:rgb(33, 107, 227);
 }
 
 a:hover {
-    color:rgb(255, 192, 56);
+    color:rgb(26, 190, 114);
 }
 
 nav {
-    color:rgb(48, 94, 81);
+    color:rgb(33, 107, 227);
     background-color: white;
 }
 
 nav svg {
-    fill:rgb(48, 94, 81);
+    fill:rgb(33, 107, 227);
     width:20px;
     height:20px;
 }
 
 nav svg:hover {
-    fill:rgb(255, 192, 56);
+    fill:rgb(26, 190, 114);
 }
 .navcontent {
     display: flex;
@@ -69,7 +69,7 @@ li {
 
 .leftnav h3  {
 
-    color:rgb(48, 94, 81);
+    color:rgb(33, 107, 227);
     font-weight: 400;
     font-size: 18px;
 }
@@ -145,8 +145,8 @@ main img {
 button {
 
     padding:15px 18px 15px 18px;
-    background-color: rgb(255, 192, 56);
-    color:rgb(66, 50, 18);
+    background-color:rgb(255, 255, 255);
+    color:rgb(33, 107, 227);
     font-size:12px;
     border:none;
     text-transform: uppercase;
@@ -158,7 +158,7 @@ button {
 
 button:hover {
 
-    background-color: rgb(255, 166, 0);
+    background-color: rgb(240, 240, 240);
 }
 
 
@@ -212,11 +212,11 @@ input {
 
 label {
     font-weight: 600;
-    color:rgb(48, 94, 81);
+    color:rgb(33, 107, 227);
 }
 
 #submit {
-    background-color:rgb(48, 94, 81);
+    background-color:rgb(33, 107, 227);
     border:none;
     color:white;
     padding:8px;
