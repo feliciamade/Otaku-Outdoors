@@ -7,10 +7,11 @@ body {
 }
 
 header {
+    background-image: url(images/land3.png);
     background-repeat: no-repeat;
-    background-size:contain;
+    background-size:cover;
     background-color: rgb(35, 145, 103);
-    background-position: right 20px top; 
+    background-position: top; 
 }
 
 a {
@@ -28,7 +29,7 @@ a:hover {
 }
 
 nav {
-    color:rgb(255, 255, 255);
+    color:rgb(96, 116, 116);
 }
 
 nav svg {
@@ -59,7 +60,7 @@ nav svg:hover {
     list-style: none;
     gap:20px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 li {
@@ -69,7 +70,7 @@ li {
 
 .leftnav h3  {
 
-    color:rgb(255, 255, 255);
+    color:rgb(96, 116, 116);
     font-weight: 400;
     font-size: 18px;
 }
@@ -218,11 +219,11 @@ input {
 
 label {
     font-weight: 600;
-    color:rgb(48, 94, 81);
+    color:rgb(255, 126, 119);
 }
 
 #submit {
-    background-color:rgb(48, 94, 81);
+    background-color:rgb(255, 126, 119);
     border:none;
     color:white;
     padding:8px;
