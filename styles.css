@@ -28,11 +28,12 @@ a:hover {
 }
 
 nav {
-    color:rgb(255, 255, 255);
+    color:rgb(48, 94, 81);
+    background-color: white;
 }
 
 nav svg {
-    fill:rgb(255, 255, 255);
+    fill:rgb(48, 94, 81);
     width:20px;
     height:20px;
 }
@@ -68,7 +69,7 @@ li {
 
 .leftnav h3  {
 
-    color:rgb(255, 255, 255);
+    color:rgb(48, 94, 81);
     font-weight: 400;
     font-size: 18px;
 }
@@ -83,6 +84,7 @@ main {
     margin:80px;
     padding-bottom:40px;
     position: relative;
+    
 }
 
 main h1 {
@@ -110,7 +112,7 @@ main img {
 .rating {
     display:flex;
     align-items: center;
-    color:white;
+    color:rgb(255, 255, 255);
     gap:0px;
 }
 
@@ -124,7 +126,7 @@ main img {
     line-height: 20px;
     width:40%;
     color:white;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 23px;
 }
 
@@ -144,12 +146,13 @@ button {
 
     padding:15px 18px 15px 18px;
     background-color: rgb(255, 192, 56);
-    color:black;
+    color:rgb(66, 50, 18);
     font-size:12px;
     border:none;
     text-transform: uppercase;
     font-weight: 500;
     letter-spacing: 0.6px;
+    border-radius: 20px;
 }
 
 
@@ -209,12 +212,22 @@ input {
 
 label {
     font-weight: 600;
-    color:rgb(48, 69, 94);
+    color:rgb(48, 94, 81);
 }
 
 #submit {
-    background-color:rgb(48, 69, 94);
+    background-color:rgb(48, 94, 81);
     border:none;
     color:white;
     padding:8px;
+    border-radius: 2px;
+}
+
+.destinations {
+    columns:3;
+}
+
+article img {
+    width:200px;
+    height:200px;
 }
