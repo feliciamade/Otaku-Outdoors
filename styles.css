@@ -7,10 +7,10 @@ body {
 }
 
 header {
-    background-image: url('images/howels.png');
     background-repeat: no-repeat;
-    background-size:cover;
-    background-color: rgb(10, 10, 13);
+    background-size:contain;
+    background-color: rgb(35, 145, 103);
+    background-position: right 20px top; 
 }
 
 a {
@@ -28,12 +28,11 @@ a:hover {
 }
 
 nav {
-    color:rgb(48, 94, 81);
-    background-color: white;
+    color:rgb(255, 255, 255);
 }
 
 nav svg {
-    fill:rgb(48, 94, 81);
+    fill:rgb(255, 255, 255);
     width:20px;
     height:20px;
 }
@@ -60,6 +59,7 @@ nav svg:hover {
     list-style: none;
     gap:20px;
     font-size: 14px;
+    font-weight: 500;
 }
 
 li {
@@ -69,7 +69,7 @@ li {
 
 .leftnav h3  {
 
-    color:rgb(48, 94, 81);
+    color:rgb(255, 255, 255);
     font-weight: 400;
     font-size: 18px;
 }
@@ -79,7 +79,7 @@ main {
    
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items:center;
     justify-content: center;
     margin:80px;
     padding-bottom:40px;
@@ -89,10 +89,12 @@ main {
 
 main h1 {
     color:white;
+    text-align: center;
     font-size: 65px;
     margin: 0;
     line-height: 65px;
     margin-bottom: 10px;
+    font-weight: 800;
 }
 main img {
     
@@ -176,15 +178,19 @@ the left and top values */
 form {
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: center; /* Center horizontally */
     gap: 20px;
     padding: 35px;
     position: absolute;
-    left: 55%;
-    top: 50%; 
+    left: 50%;
+    transform: translateX(-50%); 
+    bottom: 20%;
     background-color: white;
     border-radius: 10px;
+    width: fit-content; /* Or a specific width if needed */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
 }
+
 
 form div {
     display: flex;
