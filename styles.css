@@ -11,7 +11,7 @@ header {
     background-repeat: no-repeat;
     background-size:cover;
     background-color: rgb(35, 145, 103);
-    background-position: top; 
+    background-position: right 0px top 55px;
 }
 
 a {
@@ -31,7 +31,6 @@ a:hover {
 nav {
     color:#4f9ba7;
     background-color: #ffffff;
-
 
 }
 
@@ -221,7 +220,7 @@ input {
 }
 
 label {
-    font-weight: 600;
+    font-weight: 500;
     color:rgb(255, 126, 119);
 }
 
