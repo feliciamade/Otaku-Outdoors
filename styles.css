@@ -78,10 +78,11 @@ main {
    
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     justify-content: center;
     margin:80px;
     padding-bottom:40px;
+    position: relative;
 }
 
 main h1 {
@@ -162,4 +163,58 @@ button:hover {
     font-style: italic;
     margin: 0;
     font-size: 18px;
+}
+
+
+/* I got help with this because I still don't understand the absolute and relative positioning. 
+I knew enough to declare the parent and child position properties. However I do not understand 
+the left and top values */
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+    padding: 35px;
+    position: absolute;
+    left: 55%;
+    top: 50%; 
+    background-color: white;
+    border-radius: 10px;
+}
+
+form div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+}
+
+
+.form_content {
+    display:flex;
+    flex-direction: row;
+    align-items:flex-end;
+    gap:20px;
+}
+
+input {
+    font-family: "DM Sans", serif;
+    padding:8px;
+    object-fit: contain;
+    border: none;
+    background-color: rgb(244, 248, 252);
+
+}
+
+label {
+    font-weight: 600;
+    color:rgb(48, 69, 94);
+}
+
+#submit {
+    background-color:rgb(48, 69, 94);
+    border:none;
+    color:white;
+    padding:8px;
 }
